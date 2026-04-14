@@ -21,3 +21,6 @@ dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:4.29.0'
     testImplementation 'junit:junit:3.8.1'
 }
+application {
+    mainClass = 'com.example.App'
+}
