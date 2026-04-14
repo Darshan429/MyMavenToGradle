@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'com.example'
+version = '1.0-SNAPSHOT'
+
+description = """"""
+
+sourceCompatibility = 11
+targetCompatibility = 11
+
+
+
+repositories {
+        
+     maven { url "https://repo.maven.apache.org/maven2" }
+}
+dependencies {
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version:'4.29.0'
+    testCompile group: 'junit', name: 'junit', version:'3.8.1'
+}
